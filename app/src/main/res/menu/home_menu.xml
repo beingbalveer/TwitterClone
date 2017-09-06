@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search"
+        android:title="search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/new_tweet"
+        android:title="new tweet"
+        android:icon="@drawable/tweet1"
+        app:showAsAction="always"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
+
+    <item
+        android:id="@+id/setting"
+        android:title="setting"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Log out"
+        app:showAsAction="never"
+        android:orderInCategory="4"/>
+</menu>
